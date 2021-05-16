@@ -4,6 +4,4 @@
 #include <vector>
 #include <sstream>
 
-using namespace std;
-
-vector<string> split(const string &s, char delim);
+std::vector<std::string> split(const std::string &s, char delim);

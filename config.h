@@ -5,8 +5,6 @@
 #include <vector>
 #include <string>
 
-using namespace std;
-
-extern string token;
+extern std::string token;
 
 void LoadConfig();

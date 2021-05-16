@@ -3,6 +3,8 @@
 //https://stackoverflow.com/a/236803
 //TODO make this better, this is a BAD way to do this but I am LAZY
 
+using namespace std;
+
 template <typename Out>
 void split(const string &s, char delim, Out result) {
     istringstream iss(s);

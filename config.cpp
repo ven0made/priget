@@ -1,6 +1,8 @@
 #include "config.h"
 #include "split.h"
 
+using namespace std;
+
 void LoadConfig() {
     //Why the fuck are libconfig's docs so shit that doing it this way seems easier
     //If you see this, try and implement it, I'm not wasting my time: http://hyperrealm.com/libconfig/libconfig_manual.html
