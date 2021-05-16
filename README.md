@@ -1,8 +1,19 @@
-## Priget
+# Priget
 
 Get Discord Messages, and like, output data from them or something idfk, proper readme will be done later aight
 
-### Build Instructions
+## Build
+
+### Dependencies
+**Windows:**
+```A better OS```
+
+**Linux & MacOS:**
+```git cmake build-essentials```
+
+And a discord token, I hold no responsibility for any accounts getting banned, don't be a dumbass.
+
+### Instructions
 
 ```shell
 git clone https://github.com/st00gan/priget --recursive
@@ -19,7 +30,7 @@ token=YOUR_TOKEN_GOES_HERE
 ```
 
 
-### TODO
+## TODO
 - Organize project structure
 - Output as JSON
 - Get Message History
