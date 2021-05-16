@@ -4,3 +4,6 @@ project(priget)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(priget main.cpp)
+
+add_subdirectory(deps/sleepy-discord)
+target_link_libraries(priget sleepy-discord)
